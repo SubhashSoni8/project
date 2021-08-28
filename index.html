@@ -1,56 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Musical Shop</title>
+    <link rel="stylesheet" href="cssstyle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
-    <div class="nav-wrapper">
-        <span>
-            <img src="./images/logo.png" alt="logo" height="200" width="200" >
-            <h2>The Musical Shop</h2>
-            <a href="#">Cart</a>
-            <a href="#">Favorites</a>
-            <a href="#">Login</a>
-            <a href="#">About us</a>
-            <a href="#">Our Stores</a>
+    <div class="nav">
+        <img class="logo" src="./images/logofinal.PNG" alt="logo">
+        <h1 class="Logo-title">The Musical Shop</h1>
+        <span class="navbar-items">
+            <span>
+                <form>
+                    <input type="text" placeholder="Search..">
+                    <button><i class="fa fa-search"></i></button>
+                </form>
+            </span>
+            <a class="nav-item" href="#">Cart</a>
+            <a class="nav-item" href="#">Favorites</a>
+            <a class="nav-item" href="#">Login</a>
         </span>
-        
     </div>
+
+
     <hr>
+    <div>
+        <img src="./images/adv.PNG" alt="">
+    </div>
+
+
     <h3>BROWSE BY CATEGORY</h3>
-        <span><img src="./images/pianos.jpg" alt="">
-        
-            <img src="./images/guitars.jpg" alt="">
-            
-            <img src="./images/keyboards.jpg" alt="">
-                
-            <img src="./images/drums.jpg" alt="">  </span>
-        
-            <br>
-            &emsp;&emsp;Pianos &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Guitars &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Keyboards&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;drums
+
+    <div class="items">
+        <!-- <span class="images"> -->
+
+
+        <div class="container">
+            <img class="images1" src="./images/pianos.jpg" alt="">
+            <div class="content">
+                <p class="category-name">Pianos</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <img class="images1" src="./images/guitars.jpg" alt="">
+            <div class="content">
+                <p class="category-name">Guitars</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <img class="images1" src="./images/keyboards.jpg" alt="">
+            <div class="content">
+                <p class="category-name">Keyboards</p>
+            </div>
+        </div>
+        <div class="container">
+            <img class="images1" src="./images/drums.jpg" alt="">
+            <div class="content">
+                <p class="category-name">Drums</p>
+            </div>
+        </div>
+    </div>
+    <!-- </span> -->
+
+    <br>
+
     <h3>Featured products</h3>
-        <span>
-            <img src="./images/yamahaf280.jpg" alt="" height="263" width="200">
-            
-            <img src="./images/e453.jpg" alt="" >
-           
-            <img src="./images/yamaha rs 320.jpg" alt="" height="263" width="200">
-            
-            <img src="./images/dtx_452k.jpg" alt="" height="263" width="200">
-            
-        </span>
-        <br>
-            &emsp;&emsp;yamaha f280 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  yamaha psr-453 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; yamaha RS 320&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;yamaha dtx-452k
-    <hr>
-    <div class="footer">
-        stay connected 
-        <img src="./images/instagram.png" alt="" height="35" width="50">
-        <img src="./images/fb-logo.jpg" alt="" height="35" width="50">
-        <img src="./images/Twitter-Symbol.png" alt="" height="35" width="50">
-        We accept all Leading Credit and Debit cards
+    <div class="items">
+        <div class="container">
+            <img class="images1" src="./images/yamahaf280.jpg" alt="">
+            <div class="content">
+                <p class="category-name">Yamaha f280</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <img class="images1" src="./images/e453.jpg" alt="">
+            <div class="content">
+                <p class="category-name">Yamaha PSR - e453</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <img class="images1" src="./images/yamaha rs 320.jpg" alt="">
+            <div class="content">
+                <p class="category-name">Yamaha RS-320</p>
+            </div>
+        </div>
+        <div class="container">
+            <img class="images1" src="./images/dtx_452k.jpg" alt="">
+            <div class="content">
+                <p class="category-name">DTX-452k</p>
+            </div>
+        </div>
 
     </div>
+    <h3>Hot Deals</h3>
+    <div class="items">
+        <div class="container">
+            <img class="images1" src="./images/laney acoustic cajon.jpg" alt="">
+            <div class="content">
+                <p class="category-name">Laney Combo Amp</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <img class="images1" src="./images/PRS electric Guitar.jpg" alt="">
+            <div class="content">
+                <p class="category-name">PRS, Electric Guitar</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <img class="images1" src="./images/Yamaha clp.webp" alt="">
+            <div class="content">
+                <p class="category-name">Yamaha CLP-970</p>
+            </div>
+        </div>
+        <div class="container">
+            <img class="images1" src="./images/Yamaha tuba.webp" alt="">
+            <div class="content">
+                <p class="category-name">Yamaha Tuba</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="support">
+        <div class="support-items" style="font-weight: 550;font-size: 20px; "> Get Payment Support :</div>
+        <div class="support-items" style="opacity: 0.6;"> response@themusicalshop.com</div>
+        <div class="support-items" style="font-weight:400;font-size: 20px;"> We accept all leading Credit and Debit
+            Cards</div>
+        <div class="support-items"><img src="images/Payment.webp" alt=""></div>
+    </div>
+
+    <hr>
+    <div class="footer">
+        <table>
+            <thead>
+                <tr>
+                    <th>OFFER</th>
+                    <th>INFORMATION</th>
+                    <th>OTHER PORTALS</th>
+                    <th>POLICIES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="">Offer Zone </a></td>
+                    <td><a href="">About Us</a></td>
+                    <td><a href="">School Of Music</a></td>
+                    <td><a href="">Shipping Policy</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="">Contact Us</a></td>
+                    <td><a href="">Blog</a></td>
+                    <td><a href="">Return Policy</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="">Career</a></td>
+                    <td></td>
+                    <td><a href="">Privacy Policy</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="">Terms & Conditions</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="social-media">
+            <div>Stay Connected</div>
+            <span> 
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            </span>
+            <div style="font-size: 15px;">Copyright &copy; 2021 themusicshop.com</div>
+        </div>
+    </div>
+
 </html>
+
+<!-- 
+Pianos &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Guitars
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+Keyboards&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;drums -->
+<!-- &emsp;&emsp;yamaha f280 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; yamaha
+psr-453 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; yamaha RS
+320&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;yamaha dtx-452k -->
+
+<!-- stay connected
+        <img src="./images/instagram.png" alt="" height="35" width="50">
+        <img src="./images/fb-logo.jpg" alt="" height="35" width="50">
+        <img src="./images/Twitter-Symbol.png" alt="" height="35" width="50"> -->
